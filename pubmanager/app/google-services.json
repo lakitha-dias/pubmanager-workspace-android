@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1045751326578",
+    "project_id": "pubmanagerfrontend",
+    "storage_bucket": "pubmanagerfrontend.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1045751326578:android:47c89f45331bdecb451feb",
+        "android_client_info": {
+          "package_name": "com.pubmanager.pubmanagerapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1045751326578-eg59v4r280ujj6gnrfohusk4ad8n1g2e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pubmanager.pubmanagerapp",
+            "certificate_hash": "473758f0fa6abc1e2eb41f6bad58003f4a4c4798"
+          }
+        },
+        {
+          "client_id": "1045751326578-p1prk8pme67oq6bhe9sa9ljaeclq3dvu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCC15DqQuO3ES1FrMBp3aNDO1dsLQSzSxs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1045751326578-p1prk8pme67oq6bhe9sa9ljaeclq3dvu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

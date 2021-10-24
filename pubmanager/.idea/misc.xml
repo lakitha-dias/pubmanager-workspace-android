@@ -3,11 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Lakitha/Documents/pubmanager-android-workspace/pubmanager/app/src/main/res/drawable/gfg.xml" value="0.14722222222222223" />
         <entry key="..\:/Users/Lakitha/Documents/pubmanager-android-workspace/pubmanager/app/src/main/res/layout/activity_home.xml" value="0.1" />
         <entry key="..\:/Users/Lakitha/Documents/pubmanager-android-workspace/pubmanager/app/src/main/res/layout/activity_home2.xml" value="0.1" />
         <entry key="..\:/Users/Lakitha/Documents/pubmanager-android-workspace/pubmanager/app/src/main/res/layout/activity_main.xml" value="0.11203703703703703" />
-        <entry key="..\:/Users/Lakitha/Documents/pubmanager-android-workspace/pubmanager/app/src/main/res/layout/activity_sign_up.xml" value="0.11203703703703703" />
+        <entry key="..\:/Users/Lakitha/Documents/pubmanager-android-workspace/pubmanager/app/src/main/res/layout/activity_sign_up.xml" value="0.1" />
         <entry key="..\:/Users/Lakitha/Documents/pubmanager-android-workspace/pubmanager/app/src/main/res/layout/activity_sign_up2.xml" value="0.1" />
+        <entry key="..\:/Users/Lakitha/Documents/pubmanager-android-workspace/pubmanager/app/src/main/res/layout/notification.xml" value="0.17831813576494426" />
         <entry key="..\:/Users/Lakitha/Documents/pubmanager-android-workspace/pubmanager/app/src/main/res/xml/network_security_config.xml" value="0.1" />
       </map>
     </option>

@@ -8,18 +8,10 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
-import android.widget.Toast;
-
-import com.google.android.gms.common.api.Api;
 import com.google.gson.JsonObject;
 import com.pubmanager.pubmanager.R;
 import com.pubmanager.pubmanager.databinding.ActivitySignUpBinding;
-import com.pubmanager.pubmanager.retrofitutil.APISignUpResponse;
-import com.pubmanager.pubmanager.retrofitutil.APIClient;
 import com.pubmanager.pubmanager.retrofitutil.APIRegistry;
-
-import okhttp3.MultipartBody;
-import okhttp3.RequestBody;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
