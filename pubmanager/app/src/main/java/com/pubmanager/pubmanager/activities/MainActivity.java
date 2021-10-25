@@ -34,8 +34,15 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        mainBinding.submitTransaction.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this,UserTransactionActivity.class));
+            }
+        });
+
         // Initially category-threshold-exceeded will be unsubscribed, after that if threshold exceeded after specific  threshold this will be subscribed else unsubscribed
-        FirebaseMessaging.getInstance().subscribeToTopic("category-threshold-exceeded")
+        FirebaseMessaging.getInstance().subscribeToTopic("topic1")
                 .addOnCompleteListener(new OnCompleteListener<Void>() {
                     @Override
                     public void onComplete(@NonNull Task<Void> task) {
