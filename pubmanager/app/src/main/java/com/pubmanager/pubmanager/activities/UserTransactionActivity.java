@@ -2,13 +2,10 @@ package com.pubmanager.pubmanager.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
-
 import com.google.gson.JsonObject;
 import com.pubmanager.pubmanager.R;
-import com.pubmanager.pubmanager.databinding.ActivitySignUpBinding;
 import com.pubmanager.pubmanager.databinding.ActivityUserTransactionBinding;
 import com.pubmanager.pubmanager.retrofitutil.APIRegistry;
-
 import android.app.DatePickerDialog;
 import android.app.TimePickerDialog;
 import android.os.Bundle;
@@ -17,11 +14,9 @@ import android.util.Log;
 import android.view.View;
 import android.widget.DatePicker;
 import android.widget.EditText;
-import android.widget.ImageView;
 import android.widget.TimePicker;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
-
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;

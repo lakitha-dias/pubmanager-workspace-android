@@ -25,4 +25,8 @@ public interface APIRegistry {
     @Headers("Content-Type:application/json")
     @POST("categories/1/transactions")
     Call<JsonObject> createTransaction(@Body JsonObject body, @Header("Authorization") String auth);
+
+    @Headers("Content-Type:application/json")
+    @POST("categories")
+    Call<JsonObject> createCategory(@Body JsonObject body, @Header("Authorization") String auth);
 }

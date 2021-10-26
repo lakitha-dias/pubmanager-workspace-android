@@ -13,6 +13,15 @@
         android:theme="@style/Theme.PUBManager"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".activities.expenses.ListExpensesActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activities.expenses.ExpensesViewActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activities.UserCategoryActivity"
+            android:exported="true" />
+        <activity
             android:name=".activities.UserTransactionActivity"
             android:exported="true" />
         <activity
