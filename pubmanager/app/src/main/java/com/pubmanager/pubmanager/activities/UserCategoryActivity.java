@@ -6,7 +6,6 @@ import androidx.databinding.DataBindingUtil;
 import com.google.gson.JsonObject;
 import com.pubmanager.pubmanager.R;
 import com.pubmanager.pubmanager.databinding.ActivityUserCategoryBinding;
-import com.pubmanager.pubmanager.databinding.ActivityUserTransactionBinding;
 import com.pubmanager.pubmanager.retrofitutil.APIRegistry;
 
 import android.os.Bundle;

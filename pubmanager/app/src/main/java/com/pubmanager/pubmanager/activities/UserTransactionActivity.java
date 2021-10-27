@@ -15,6 +15,8 @@ import android.view.View;
 import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.TimePicker;
+
+import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import retrofit2.Call;
@@ -120,8 +122,28 @@ public class UserTransactionActivity extends AppCompatActivity {
         String note = userTransactionActivityBinding.note.getText().toString();
         String dateInput = userTransactionActivityBinding.dateInput.getText().toString();
         String timeInput = userTransactionActivityBinding.timeInput.getText().toString();
-        Long transactionDate = Long.valueOf("1234566667555555");
 
+        String dataTimeSelected = "20"+dateInput+" "+timeInput+":00";
+
+
+        ///
+
+            SimpleDateFormat changeFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+
+            java.util.Date transactionDateConverted1 = null;
+            java.util.Date transactionDateConverted2 = null;
+
+            java.sql.Timestamp transactionDateSQL1 = null;
+            java.sql.Timestamp transactionDateSQL2 = null;
+
+            try {
+                transactionDateConverted1 =  changeFormat.parse(dataTimeSelected);
+
+            } catch (ParseException e) {
+                e.getMessage();
+            }
+
+        ///
 
         String BASE_URL = "http://10.0.2.2:8082/api/";
         Retrofit retrofit = new Retrofit.Builder().baseUrl(BASE_URL).addConverterFactory(GsonConverterFactory.create()).build();
@@ -131,9 +153,10 @@ public class UserTransactionActivity extends AppCompatActivity {
         JsonObject bodyObj= new JsonObject();
         bodyObj.addProperty("amount", amount);
         bodyObj.addProperty("note", note);
-        bodyObj.addProperty("transactionDate", transactionDate);
+        bodyObj.addProperty("transactionDate", Long.valueOf(transactionDateConverted1.getTime()));
+        bodyObj.addProperty("transactionLoggedDate", dataTimeSelected);
 
-        String authToken = "Bearer eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MzUxNjA3MjIsImV4cCI6MTYzNTE2NzkyMiwidXNlcklkIjo3LCJlbWFpbCI6Im5hcmVzaDIyZGQuZGRkQGdtYWlsLmNvbSIsImZpcnN0TmFtZSI6Im5hcmVzaDIzZGQiLCJsYXN0TmFtZSI6ImdnZzIyZGQifQ.ipWv2tWt25afRqzuh2fMYORh2mzUleAbGWiE0oRfE5k";
+        String authToken = "Bearer eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MzUzNTExNTksImV4cCI6MTYzNTM1ODM1OSwidXNlcklkIjo3LCJlbWFpbCI6Im5hcmVzaDIyZGQuZGRkQGdtYWlsLmNvbSIsImZpcnN0TmFtZSI6Im5hcmVzaDIzZGQiLCJsYXN0TmFtZSI6ImdnZzIyZGQifQ.azxSfPyvIxQRagL9gVpCn-qrAxO51ONdiObhSqJNXIY";
         Call<JsonObject> call = api.createTransaction(bodyObj,authToken);
         call.enqueue(new Callback<JsonObject>() {
 
