@@ -88,10 +88,6 @@ public class UserCategoryActivity extends AppCompatActivity {
             }
         });
 
-
-
     }
-
-
 
 }

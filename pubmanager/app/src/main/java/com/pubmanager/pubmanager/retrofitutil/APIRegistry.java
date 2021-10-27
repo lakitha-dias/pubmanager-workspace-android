@@ -1,5 +1,6 @@
 package com.pubmanager.pubmanager.retrofitutil;
 
+import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 
 import okhttp3.RequestBody;
@@ -29,4 +30,8 @@ public interface APIRegistry {
     @Headers("Content-Type:application/json")
     @POST("categories")
     Call<JsonObject> createCategory(@Body JsonObject body, @Header("Authorization") String auth);
+
+    @Headers("Content-Type:application/json")
+    @POST("categories/0/transactions/find-transactions-by-datetime")
+    Call<JsonArray> getTransactionsByDateTime(@Body JsonObject body, @Header("Authorization") String auth);
 }

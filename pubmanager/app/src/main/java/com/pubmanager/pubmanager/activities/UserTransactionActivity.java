@@ -156,7 +156,7 @@ public class UserTransactionActivity extends AppCompatActivity {
         bodyObj.addProperty("transactionDate", Long.valueOf(transactionDateConverted1.getTime()));
         bodyObj.addProperty("transactionLoggedDate", dataTimeSelected);
 
-        String authToken = "Bearer eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MzUzNTExNTksImV4cCI6MTYzNTM1ODM1OSwidXNlcklkIjo3LCJlbWFpbCI6Im5hcmVzaDIyZGQuZGRkQGdtYWlsLmNvbSIsImZpcnN0TmFtZSI6Im5hcmVzaDIzZGQiLCJsYXN0TmFtZSI6ImdnZzIyZGQifQ.azxSfPyvIxQRagL9gVpCn-qrAxO51ONdiObhSqJNXIY";
+        String authToken = "Bearer eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MzUzNTk3NjgsImV4cCI6MTYzNTM2Njk2OCwidXNlcklkIjo3LCJlbWFpbCI6Im5hcmVzaDIyZGQuZGRkQGdtYWlsLmNvbSIsImZpcnN0TmFtZSI6Im5hcmVzaDIzZGQiLCJsYXN0TmFtZSI6ImdnZzIyZGQifQ.gEuG2IrB80QBxNa0o_fFUl9_Et5fNsrHzHwkng5faxU";
         Call<JsonObject> call = api.createTransaction(bodyObj,authToken);
         call.enqueue(new Callback<JsonObject>() {
 
