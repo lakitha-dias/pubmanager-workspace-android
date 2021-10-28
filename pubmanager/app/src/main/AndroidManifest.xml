@@ -13,6 +13,9 @@
         android:theme="@style/Theme.PUBManager"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".activities.CategoriesListViewActivity"
+            android:exported="true" />
+        <activity
             android:name=".activities.expenses.ListExpensesActivity"
             android:exported="true" />
         <activity

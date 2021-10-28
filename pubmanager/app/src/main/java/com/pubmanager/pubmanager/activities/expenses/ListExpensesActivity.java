@@ -146,7 +146,7 @@ public class ListExpensesActivity extends AppCompatActivity {
         bodyObj.addProperty("startDateTime", startDate);
         bodyObj.addProperty("endDateTime", endDate);
 
-        String authToken = "Bearer eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MzUzNTk3NjgsImV4cCI6MTYzNTM2Njk2OCwidXNlcklkIjo3LCJlbWFpbCI6Im5hcmVzaDIyZGQuZGRkQGdtYWlsLmNvbSIsImZpcnN0TmFtZSI6Im5hcmVzaDIzZGQiLCJsYXN0TmFtZSI6ImdnZzIyZGQifQ.gEuG2IrB80QBxNa0o_fFUl9_Et5fNsrHzHwkng5faxU";
+        String authToken = "Bearer eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MzUzODE0NDMsImV4cCI6MTYzNTM4ODY0MywidXNlcklkIjo3LCJlbWFpbCI6Im5hcmVzaDIyZGQuZGRkQGdtYWlsLmNvbSIsImZpcnN0TmFtZSI6Im5hcmVzaDIzZGQiLCJsYXN0TmFtZSI6ImdnZzIyZGQifQ.IcYUxmu07-1BDIxmlhQZoS1xSdAr1Ij6DN3rTHq1VVI";
         Call<JsonArray> call = api.getTransactionsByDateTime(bodyObj,authToken);
         call.enqueue(new Callback<JsonArray>() {
             @Override

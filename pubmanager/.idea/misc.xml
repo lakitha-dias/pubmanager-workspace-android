@@ -4,6 +4,13 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Lakitha/Documents/pubmanager-android-workspace/pubmanager/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2358974358974359" />
+        <entry key="..\:/Users/Lakitha/Documents/pubmanager-android-workspace/pubmanager/app/src/main/res/drawable/buttonstyle.xml" value="0.1259259259259259" />
+        <entry key="..\:/Users/Lakitha/Documents/pubmanager-android-workspace/pubmanager/app/src/main/res/drawable/cardbackground.xml" value="0.1259259259259259" />
+        <entry key="..\:/Users/Lakitha/Documents/pubmanager-android-workspace/pubmanager/app/src/main/res/drawable/cerclebackgroundgreen.xml" value="0.1259259259259259" />
+        <entry key="..\:/Users/Lakitha/Documents/pubmanager-android-workspace/pubmanager/app/src/main/res/drawable/cerclebackgroundpink.xml" value="0.1259259259259259" />
+        <entry key="..\:/Users/Lakitha/Documents/pubmanager-android-workspace/pubmanager/app/src/main/res/drawable/cerclebackgroundpurple.xml" value="0.23948717948717949" />
+        <entry key="..\:/Users/Lakitha/Documents/pubmanager-android-workspace/pubmanager/app/src/main/res/drawable/cerclebackgroundyello.xml" value="0.23948717948717949" />
+        <entry key="..\:/Users/Lakitha/Documents/pubmanager-android-workspace/pubmanager/app/src/main/res/drawable/cercleshape.xml" value="0.23948717948717949" />
         <entry key="..\:/Users/Lakitha/Documents/pubmanager-android-workspace/pubmanager/app/src/main/res/drawable/gfg.xml" value="0.14722222222222223" />
         <entry key="..\:/Users/Lakitha/Documents/pubmanager-android-workspace/pubmanager/app/src/main/res/drawable/ic_attachment_foreground.xml" value="0.2358974358974359" />
         <entry key="..\:/Users/Lakitha/Documents/pubmanager-android-workspace/pubmanager/app/src/main/res/drawable/ic_attendance_recap.xml" value="0.23958333333333334" />
@@ -12,14 +19,19 @@
         <entry key="..\:/Users/Lakitha/Documents/pubmanager-android-workspace/pubmanager/app/src/main/res/drawable/ic_bg_topheader.xml" value="0.23958333333333334" />
         <entry key="..\:/Users/Lakitha/Documents/pubmanager-android-workspace/pubmanager/app/src/main/res/drawable/ic_launcher_background.xml" value="0.22239583333333332" />
         <entry key="..\:/Users/Lakitha/Documents/pubmanager-android-workspace/pubmanager/app/src/main/res/drawable/ic_profile.xml" value="0.23958333333333334" />
+        <entry key="..\:/Users/Lakitha/Documents/pubmanager-android-workspace/pubmanager/app/src/main/res/drawable/ic_subproduct.xml" value="0.22239583333333332" />
+        <entry key="..\:/Users/Lakitha/Documents/pubmanager-android-workspace/pubmanager/app/src/main/res/drawable/ic_wifi_black_24dp.xml" value="0.23948717948717949" />
         <entry key="..\:/Users/Lakitha/Documents/pubmanager-android-workspace/pubmanager/app/src/main/res/drawable/mdi_delete.xml" value="0.2358974358974359" />
         <entry key="..\:/Users/Lakitha/Documents/pubmanager-android-workspace/pubmanager/app/src/main/res/drawable/mdi_share.xml" value="0.2358974358974359" />
         <entry key="..\:/Users/Lakitha/Documents/pubmanager-android-workspace/pubmanager/app/src/main/res/drawable/mdi_view.xml" value="0.2358974358974359" />
+        <entry key="..\:/Users/Lakitha/Documents/pubmanager-android-workspace/pubmanager/app/src/main/res/drawable/non_recurring_clipart.xml" value="0.22239583333333332" />
         <entry key="..\:/Users/Lakitha/Documents/pubmanager-android-workspace/pubmanager/app/src/main/res/drawable/one.xml" value="0.2358974358974359" />
         <entry key="..\:/Users/Lakitha/Documents/pubmanager-android-workspace/pubmanager/app/src/main/res/drawable/three.xml" value="0.22239583333333332" />
         <entry key="..\:/Users/Lakitha/Documents/pubmanager-android-workspace/pubmanager/app/src/main/res/drawable/two.xml" value="0.22239583333333332" />
+        <entry key="..\:/Users/Lakitha/Documents/pubmanager-android-workspace/pubmanager/app/src/main/res/layout/activity_categories_list.xml" value="0.1" />
+        <entry key="..\:/Users/Lakitha/Documents/pubmanager-android-workspace/pubmanager/app/src/main/res/layout/activity_categories_list_view.xml" value="0.22708333333333333" />
         <entry key="..\:/Users/Lakitha/Documents/pubmanager-android-workspace/pubmanager/app/src/main/res/layout/activity_empty.xml" value="0.20625" />
-        <entry key="..\:/Users/Lakitha/Documents/pubmanager-android-workspace/pubmanager/app/src/main/res/layout/activity_home.xml" value="0.4125" />
+        <entry key="..\:/Users/Lakitha/Documents/pubmanager-android-workspace/pubmanager/app/src/main/res/layout/activity_home.xml" value="0.11910112359550562" />
         <entry key="..\:/Users/Lakitha/Documents/pubmanager-android-workspace/pubmanager/app/src/main/res/layout/activity_home2.xml" value="0.1" />
         <entry key="..\:/Users/Lakitha/Documents/pubmanager-android-workspace/pubmanager/app/src/main/res/layout/activity_home_card.xml" value="0.1921875" />
         <entry key="..\:/Users/Lakitha/Documents/pubmanager-android-workspace/pubmanager/app/src/main/res/layout/activity_list_expenses.xml" value="0.1921875" />
@@ -28,6 +40,9 @@
         <entry key="..\:/Users/Lakitha/Documents/pubmanager-android-workspace/pubmanager/app/src/main/res/layout/activity_sign_up2.xml" value="0.1" />
         <entry key="..\:/Users/Lakitha/Documents/pubmanager-android-workspace/pubmanager/app/src/main/res/layout/activity_user_category.xml" value="0.2234375" />
         <entry key="..\:/Users/Lakitha/Documents/pubmanager-android-workspace/pubmanager/app/src/main/res/layout/activity_user_transaction.xml" value="0.26515151515151514" />
+        <entry key="..\:/Users/Lakitha/Documents/pubmanager-android-workspace/pubmanager/app/src/main/res/layout/card_collapseview.xml" value="0.22708333333333333" />
+        <entry key="..\:/Users/Lakitha/Documents/pubmanager-android-workspace/pubmanager/app/src/main/res/layout/card_expand_item_view.xml" value="0.20625" />
+        <entry key="..\:/Users/Lakitha/Documents/pubmanager-android-workspace/pubmanager/app/src/main/res/layout/categories_card_item.xml" value="0.22708333333333333" />
         <entry key="..\:/Users/Lakitha/Documents/pubmanager-android-workspace/pubmanager/app/src/main/res/layout/notification.xml" value="0.17831813576494426" />
         <entry key="..\:/Users/Lakitha/Documents/pubmanager-android-workspace/pubmanager/app/src/main/res/layout/recycler_list.xml" value="0.2234375" />
         <entry key="..\:/Users/Lakitha/Documents/pubmanager-android-workspace/pubmanager/app/src/main/res/layout/recycler_menu.xml" value="0.20625" />

@@ -29,5 +29,13 @@ public class HomeActivity extends AppCompatActivity {
                 startActivity(new Intent(HomeActivity.this, ListExpensesActivity.class));
             }
         });
+
+        homeBinding.categoriesCard.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+               startActivity(new Intent(HomeActivity.this, CategoriesListViewActivity.class));
+            }
+        });
+
     }
 }
