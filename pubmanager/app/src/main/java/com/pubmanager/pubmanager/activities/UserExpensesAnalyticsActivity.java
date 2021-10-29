@@ -40,6 +40,7 @@ import java.time.ZonedDateTime;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
+import java.util.HashMap;
 import java.util.List;
 
 import retrofit2.Call;
@@ -170,7 +171,7 @@ public class UserExpensesAnalyticsActivity extends AppCompatActivity {
         bodyObj.addProperty("startDateTime", startDate);
         bodyObj.addProperty("endDateTime", endDate);
 
-        String authToken = "Bearer eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MzU1MjE0MTIsImV4cCI6MTYzNTUyODYxMiwidXNlcklkIjo3LCJlbWFpbCI6Im5hcmVzaDIyZGQuZGRkQGdtYWlsLmNvbSIsImZpcnN0TmFtZSI6Im5hcmVzaDIzZGQiLCJsYXN0TmFtZSI6ImdnZzIyZGQifQ.po1nbcmSVQiPKlxjmy_j79SF-EJMZhb--MCxWeUG1uM";
+        String authToken = "Bearer eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MzU1MzM2MDUsImV4cCI6MTYzNjc0MzIwNSwidXNlcklkIjo3LCJlbWFpbCI6Im5hcmVzaDIyZGQuZGRkQGdtYWlsLmNvbSIsImZpcnN0TmFtZSI6Im5hcmVzaDIzZGQiLCJsYXN0TmFtZSI6ImdnZzIyZGQifQ.jV2fHQig12a-FYv8N1enPD1bO3tbGD6U-60VqUjx8PM";
 
 
         Call<JsonArray> call = null;
@@ -257,10 +258,10 @@ public class UserExpensesAnalyticsActivity extends AppCompatActivity {
 
 
                     JsonElement amountElement = transactionItem.get("amount");
-                    String amount = null;
+                    Double amount = 0.0D;
                     if(amountElement != null){
-                        amount = amountElement.getAsString();
-                        Log.d("onResponse|amount :", amount);
+                        amount = amountElement.getAsDouble();
+                        Log.d("onResponse|amount :", String.valueOf(amount));
                     }
 
                     JsonElement noteElement = transactionItem.get("note");
@@ -284,6 +285,21 @@ public class UserExpensesAnalyticsActivity extends AppCompatActivity {
 
 
 
+                    HashMap<String, Double> categoryTransactions = new HashMap<String, Double>();
+
+
+                        if(categoryTransactions.containsKey(categoryId)){
+                            categoryTransactions.put(categoryId, categoryTransactions.get(categoryId)+amount);
+                        }
+                        else{
+                            categoryTransactions.put(categoryId, amount);
+                        }
+
+
+
+                    Log.d("onResponse|categoryTransactions map created :", categoryTransactions.toString());
+
+
                 }
             }
 
@@ -303,7 +319,7 @@ public class UserExpensesAnalyticsActivity extends AppCompatActivity {
         APIRegistry api = retrofit.create(APIRegistry.class);
 
 
-        String authToken = "Bearer eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MzU1MDIyMTcsImV4cCI6MTYzNTUwOTQxNywidXNlcklkIjo3LCJlbWFpbCI6Im5hcmVzaDIyZGQuZGRkQGdtYWlsLmNvbSIsImZpcnN0TmFtZSI6Im5hcmVzaDIzZGQiLCJsYXN0TmFtZSI6ImdnZzIyZGQifQ._Obj4C1bNQhBKyDjBF-DyyB0_h1EUSMYlTBeH1tnEB0";
+        String authToken = "Bearer eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MzU1MzM2MDUsImV4cCI6MTYzNjc0MzIwNSwidXNlcklkIjo3LCJlbWFpbCI6Im5hcmVzaDIyZGQuZGRkQGdtYWlsLmNvbSIsImZpcnN0TmFtZSI6Im5hcmVzaDIzZGQiLCJsYXN0TmFtZSI6ImdnZzIyZGQifQ.jV2fHQig12a-FYv8N1enPD1bO3tbGD6U-60VqUjx8PM";
         Call<JsonArray> call = api.getAllCategories(authToken);
         call.enqueue(new Callback<JsonArray>() {
             @Override
@@ -384,6 +400,6 @@ public class UserExpensesAnalyticsActivity extends AppCompatActivity {
 
         });
     }
-    
+
 
 }
