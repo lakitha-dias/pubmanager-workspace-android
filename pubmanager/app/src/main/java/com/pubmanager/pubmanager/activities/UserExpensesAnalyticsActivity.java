@@ -31,7 +31,10 @@ import java.time.Instant;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
+import java.time.Month;
+import java.time.YearMonth;
 import java.time.ZoneId;
+import java.time.ZonedDateTime;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
@@ -84,12 +87,20 @@ public class UserExpensesAnalyticsActivity extends AppCompatActivity {
 
         // Get transactions for current date at first load
 
-        LocalDateTime now = LocalDateTime.now();
-        LocalDateTime startOfDay = LocalDateTime.of(LocalDate.from(now), LocalTime.MIN);
-        LocalDateTime endOfDay = LocalDateTime.of(LocalDate.from(now), LocalTime.MAX);
+        ZoneId zoneId = ZoneId.of("America/Montreal");  // Or 'ZoneOffset.UTC'.
+        ZonedDateTime now = ZonedDateTime.now(zoneId);
+        Month month = now.getMonth();
+        int year = now.getYear();
+        int monthNumber = month.getValue(); // Answer to the Question.
 
-        String startDate = startOfDay.toString().replace("T", " ")+":00";
-        String endDate = endOfDay.toString().replace("T", " ");
+
+        YearMonth yearMonth = YearMonth.of(year, monthNumber);
+        LocalDate firstOfMonth = yearMonth.atDay(1);
+        LocalDate last = yearMonth.atEndOfMonth();
+
+
+        String startDate = firstOfMonth + " " + "00:00:00";
+        String endDate = last + " " + "11:59:59";
 
 
         getTransactionsByDateTime(startDate,endDate);
