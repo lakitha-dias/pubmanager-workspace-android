@@ -10,10 +10,12 @@ import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.pubmanager.pubmanager.R;
+import com.pubmanager.pubmanager.activities.categories.CardModel;
 import com.pubmanager.pubmanager.activities.expenses.ListExpensesActivity;
 import com.pubmanager.pubmanager.activities.expenses.RecyclerAdapter;
 import com.pubmanager.pubmanager.activities.expenses.RecyclerEntity;
 import com.pubmanager.pubmanager.databinding.ActivityListExpensesBinding;
+import com.pubmanager.pubmanager.models.UserCategory;
 import com.pubmanager.pubmanager.retrofitutil.APIRegistry;
 
 import android.app.DatePickerDialog;
@@ -293,5 +295,95 @@ public class UserExpensesAnalyticsActivity extends AppCompatActivity {
     }
 
 
+
+    public void getAllCategories(){
+
+        String BASE_URL = "http://10.0.2.2:8082/api/";
+        Retrofit retrofit = new Retrofit.Builder().baseUrl(BASE_URL).addConverterFactory(GsonConverterFactory.create()).build();
+        APIRegistry api = retrofit.create(APIRegistry.class);
+
+
+        String authToken = "Bearer eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MzU1MDIyMTcsImV4cCI6MTYzNTUwOTQxNywidXNlcklkIjo3LCJlbWFpbCI6Im5hcmVzaDIyZGQuZGRkQGdtYWlsLmNvbSIsImZpcnN0TmFtZSI6Im5hcmVzaDIzZGQiLCJsYXN0TmFtZSI6ImdnZzIyZGQifQ._Obj4C1bNQhBKyDjBF-DyyB0_h1EUSMYlTBeH1tnEB0";
+        Call<JsonArray> call = api.getAllCategories(authToken);
+        call.enqueue(new Callback<JsonArray>() {
+            @Override
+            public void onResponse(Call<JsonArray> call, Response<JsonArray> response) {
+                Log.d("onResponse:", response.toString());
+
+                if (response.isSuccessful() && response.body() != null) {
+                    Log.d("onResponse|success:", response.body().toString());
+
+                    String responseArray = response.body().toString();
+
+                    try {
+
+                        JsonArray jsonArray = response.body();
+
+                        ArrayList<Object> listdata = new ArrayList<Object>();
+
+                        if (jsonArray != null) {
+
+                            //Iterating JSON array
+                            for (int i = 0; i < jsonArray.size(); i++) {
+
+                                //Adding each element of JSON array into ArrayList
+                                listdata.add(jsonArray.get(i));
+                            }
+                        }
+
+                        if(!listdata.isEmpty()){
+                            for(int i=0; i<listdata.size(); i++) {
+                                //Printing each element of ArrayList
+                                Log.d("onResponse|listdata :", listdata.get(i).toString());
+
+                                JsonObject transactionItem = (JsonObject) listdata.get(i);
+
+                                if(transactionItem != null){
+
+                                    JsonElement categoryIdElement = transactionItem.get("categoryId");
+                                    String categoryId = null;
+                                    if(categoryIdElement != null){
+                                        categoryId = categoryIdElement.getAsString();
+                                        Log.d("onResponse|categoryId :", categoryId);
+                                    }
+
+
+                                    JsonElement titleElement = transactionItem.get("title");
+                                    String title = null;
+                                    if(titleElement != null){
+                                        title = titleElement.getAsString();
+                                        Log.d("onResponse|title :", title);
+                                    }
+
+
+
+                                }
+                            }
+
+                        }
+                        else{
+                            Log.d("onResponse| No data found :", "Empty data list..");
+                        }
+
+
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
+
+
+                } else {
+                    Log.e("onResponse|failure:", "Error in getGenericJson:" + response.code() + " " + response.message());
+                }
+            }
+
+            @Override
+            public void onFailure(Call<JsonArray> call, Throwable t) {
+                Log.e("onFailure|error:", t.getMessage());
+                Log.e("onFailure|request:", call.request().toString());
+            }
+
+        });
+    }
+    
 
 }
