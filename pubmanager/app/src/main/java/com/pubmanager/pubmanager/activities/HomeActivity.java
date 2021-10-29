@@ -10,7 +10,6 @@ import android.view.View;
 import com.pubmanager.pubmanager.R;
 import com.pubmanager.pubmanager.activities.expenses.ListExpensesActivity;
 import com.pubmanager.pubmanager.databinding.ActivityHomeBinding;
-import com.pubmanager.pubmanager.databinding.ActivityMainBinding;
 
 public class HomeActivity extends AppCompatActivity {
 
@@ -26,7 +25,13 @@ public class HomeActivity extends AppCompatActivity {
         homeBinding.expensesCard.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(HomeActivity.this, ListExpensesActivity.class));
+               // startActivity(new Intent(HomeActivity.this, ListExpensesActivity.class));
+
+                Intent intent = new Intent(HomeActivity.this, ListExpensesActivity.class);
+                intent.putExtra("categoryId", "0");
+                intent.putExtra("endpointType", "find-transactions-by-datetime");
+                startActivityForResult(intent, 0);
+
             }
         });
 
@@ -36,6 +41,15 @@ public class HomeActivity extends AppCompatActivity {
                startActivity(new Intent(HomeActivity.this, CategoriesListViewActivity.class));
             }
         });
+
+
+        homeBinding.userAnalytics.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(HomeActivity.this, UserExpensesAnalyticsActivity.class));
+            }
+        });
+
 
     }
 }
