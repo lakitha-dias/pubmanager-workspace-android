@@ -19,13 +19,12 @@ public interface APIRegistry {
     @POST("users/register")
     Call<JsonObject> performSignUp(@Body JsonObject body);
 
-    @FormUrlEncoded
+    @Headers("Content-Type:application/json")
     @POST("users/login")
-    Call<APISignUpResponse> performSignIn(@Field("email") String email,
-                                          @Field("password") String password);
+    Call<JsonObject> performSignIn(@Body JsonObject body);
 
     @Headers("Content-Type:application/json")
-    @POST("categories/1/transactions")
+    @POST("transactions")
     Call<JsonObject> createTransaction(@Body JsonObject body, @Header("Authorization") String auth);
 
     @Headers("Content-Type:application/json")
@@ -38,6 +37,16 @@ public interface APIRegistry {
 
 
     @Headers("Content-Type:application/json")
+    @POST("transactions/find-transactions-by-category-datetime")
+    Call<JsonArray> getTransactionsByCategoryDateTime(@Body JsonObject body, @Header("Authorization") String auth);
+
+
+    @Headers("Content-Type:application/json")
     @GET("categories")
     Call<JsonArray> getAllCategories(@Header("Authorization") String auth);
+
+
+    @Headers("Content-Type:application/json")
+    @GET("users/login")
+    Call<JsonObject> getRefreshToken(@Body JsonObject body);
 }

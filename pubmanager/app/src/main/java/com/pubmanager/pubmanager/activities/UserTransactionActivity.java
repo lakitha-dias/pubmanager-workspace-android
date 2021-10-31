@@ -6,19 +6,31 @@ import com.google.gson.JsonObject;
 import com.pubmanager.pubmanager.R;
 import com.pubmanager.pubmanager.databinding.ActivityUserTransactionBinding;
 import com.pubmanager.pubmanager.retrofitutil.APIRegistry;
+import com.pubmanager.pubmanager.retrofitutil.RefreshTokenClient;
+
 import android.app.DatePickerDialog;
 import android.app.TimePickerDialog;
+import android.content.Context;
+import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.text.InputType;
 import android.util.Log;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.DatePicker;
 import android.widget.EditText;
+import android.widget.RadioButton;
+import android.widget.RadioGroup;
+import android.widget.Spinner;
 import android.widget.TimePicker;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Calendar;
+import java.util.List;
+
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
@@ -44,6 +56,13 @@ public class UserTransactionActivity extends AppCompatActivity {
         date_in.setInputType(InputType.TYPE_NULL);
         time_in.setInputType(InputType.TYPE_NULL);
 
+
+
+
+
+        Intent intent = getIntent();
+        String categoryId = intent.getStringExtra("categoryId");
+
         userTransactionActivityBinding = DataBindingUtil.setContentView(this, R.layout.activity_user_transaction);
 
        // transactionDocument = findViewById(R.id.transactionDocument);
@@ -59,7 +78,7 @@ public class UserTransactionActivity extends AppCompatActivity {
         userTransactionActivityBinding.btnTransaction.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                createTransaction();
+                createTransaction(categoryId);
             }
         });
 
@@ -77,6 +96,13 @@ public class UserTransactionActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 showTimeDialog(time_in);
+            }
+        });
+
+        userTransactionActivityBinding.categoriesView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(UserTransactionActivity.this, CategoriesListViewActivity.class));
             }
         });
 
@@ -117,11 +143,17 @@ public class UserTransactionActivity extends AppCompatActivity {
     }
 
 
-    private void createTransaction() {
+    private void createTransaction(String categoryId) {
         Double amount = Double.valueOf(userTransactionActivityBinding.amount.getText().toString());
         String note = userTransactionActivityBinding.note.getText().toString();
         String dateInput = userTransactionActivityBinding.dateInput.getText().toString();
         String timeInput = userTransactionActivityBinding.timeInput.getText().toString();
+
+
+        RadioGroup radioGroup = (RadioGroup) userTransactionActivityBinding.transactionExpenseSource;
+        int radioButtonID = radioGroup.getCheckedRadioButtonId();
+        RadioButton radioButton = (RadioButton) radioGroup.findViewById(radioButtonID);
+        String transactionExpenseSource = (String) radioButton.getText();
 
         String dataTimeSelected = "20"+dateInput+" "+timeInput+":00";
 
@@ -145,9 +177,11 @@ public class UserTransactionActivity extends AppCompatActivity {
 
         ///
 
-        String BASE_URL = "http://10.0.2.2:8082/api/";
+        String BASE_URL = "http://10.0.2.2:8082/api/categories/"+ categoryId +"/";
         Retrofit retrofit = new Retrofit.Builder().baseUrl(BASE_URL).addConverterFactory(GsonConverterFactory.create()).build();
         APIRegistry api = retrofit.create(APIRegistry.class);
+
+        Log.d("onResponse| categoryId from intent :", categoryId);
 
 
         JsonObject bodyObj= new JsonObject();
@@ -155,8 +189,14 @@ public class UserTransactionActivity extends AppCompatActivity {
         bodyObj.addProperty("note", note);
         bodyObj.addProperty("transactionDate", Long.valueOf(transactionDateConverted1.getTime()));
         bodyObj.addProperty("transactionLoggedDate", dataTimeSelected);
+        bodyObj.addProperty("transactionExpenseSource", transactionExpenseSource);
 
-        String authToken = "Bearer eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MzUzNTk3NjgsImV4cCI6MTYzNTM2Njk2OCwidXNlcklkIjo3LCJlbWFpbCI6Im5hcmVzaDIyZGQuZGRkQGdtYWlsLmNvbSIsImZpcnN0TmFtZSI6Im5hcmVzaDIzZGQiLCJsYXN0TmFtZSI6ImdnZzIyZGQifQ.gEuG2IrB80QBxNa0o_fFUl9_Et5fNsrHzHwkng5faxU";
+
+
+        SharedPreferences preferences =
+                getSharedPreferences("com.pubmanager.pubmanager", Context.MODE_PRIVATE);
+        String authToken = preferences.getString("authToken", "token");
+
         Call<JsonObject> call = api.createTransaction(bodyObj,authToken);
         call.enqueue(new Callback<JsonObject>() {
 

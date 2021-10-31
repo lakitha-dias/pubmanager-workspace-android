@@ -1,0 +1,406 @@
+[
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\color_background.xml.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\color\\background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\drawable_mdi_view.xml.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\drawable\\mdi_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\drawable_earth.jpg.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\drawable\\earth.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_profile.xml.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\drawable\\ic_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\drawable_mercury.jpg.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\drawable\\mercury.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_settings_applications_24.xml.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\drawable\\ic_baseline_settings_applications_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_access_time_24.xml.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\drawable\\ic_baseline_access_time_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\font_mo_re.ttf.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\font\\mo_re.ttf"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_user_expenses_analytics.xml.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\layout\\activity_user_expenses_analytics.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\drawable_venus.jpg.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\drawable\\venus.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_attachment.xml.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_attachment.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_folder_24.xml.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\drawable\\ic_baseline_folder_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_arrow_down.xml.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\drawable\\ic_arrow_down.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_calendar_today_24.xml.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\drawable\\ic_baseline_calendar_today_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_attachment_round.xml.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_attachment_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_people_24.xml.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\drawable\\ic_baseline_people_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_repeat_24.xml.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\drawable\\ic_baseline_repeat_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_star_24.xml.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\drawable\\ic_baseline_star_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\drawable_two.xml.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\drawable\\two.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_user_category.xml.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\layout\\activity_user_category.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\drawable_mars.jpg.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\drawable\\mars.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\drawable_saturn.jpg.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\drawable\\saturn.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_attachment_round.png.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_attachment_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\layout_categories_card_item.xml.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\layout\\categories_card_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\drawable_recurring_list_icon.PNG.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\drawable\\recurring_list_icon.PNG"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_gpa_reult.xml.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\drawable\\ic_gpa_reult.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_home_card.xml.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\layout\\activity_home_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\drawable_recurring_payments_icon.PNG.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\drawable\\recurring_payments_icon.PNG"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_attachment_round.png.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\mipmap-mdpi\\ic_attachment_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\layout_categoroes_recyclerview_adapter_layout.xml.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\layout\\categoroes_recyclerview_adapter_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\drawable_mdi_edit.xml.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\drawable\\mdi_edit.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_attachment.png.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\mipmap-xhdpi\\ic_attachment.png"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\drawable_one.xml.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\drawable\\one.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\drawable_icon_03.PNG.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\drawable\\icon_03.PNG"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\drawable_mdi_share.xml.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\drawable\\mdi_share.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_attachment.png.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\mipmap-hdpi\\ic_attachment.png"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_attachment.png.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\mipmap-mdpi\\ic_attachment.png"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_attachment_round.png.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_attachment_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_categories_list_view.xml.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\layout\\activity_categories_list_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\xml_network_security_config.xml.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\xml\\network_security_config.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\layout_nav_header_layout.xml.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\layout\\nav_header_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\font_mo_me.ttf.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\font\\mo_me.ttf"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\drawable_nonrecurring_list_icon.PNG.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\drawable\\nonrecurring_list_icon.PNG"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_user_transaction.xml.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\layout\\activity_user_transaction.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\drawable_uranus.jpg.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\drawable\\uranus.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_justice_league.jpeg.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\drawable-v24\\justice_league.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_star_war.jpg.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\drawable-v24\\star_war.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\drawable_mdi_delete.xml.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\drawable\\mdi_delete.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_attachment_foreground.xml.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\drawable\\ic_attachment_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_repeat_one_24.xml.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\drawable\\ic_baseline_repeat_one_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\font_mo_li.ttf.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\font\\mo_li.ttf"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\drawable_neptune.jpg.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\drawable\\neptune.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\layout_recyclerview_adapter_layout.xml.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\layout\\recyclerview_adapter_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_attendance_recap.xml.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\drawable\\ic_attendance_recap.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\menu_nav_menu.xml.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\menu\\nav_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_category_expenses_recycle_view.xml.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\layout\\activity_category_expenses_recycle_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_category_expenses.xml.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\layout\\activity_category_expenses.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_attachment_round.png.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\mipmap-xhdpi\\ic_attachment_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_sign_up.xml.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\layout\\activity_sign_up.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\drawable_three.xml.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\drawable\\three.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_bg_topheader.xml.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\drawable\\ic_bg_topheader.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\drawable_transactions_icon.PNG.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\drawable\\transactions_icon.PNG"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_thor_ragnarok.jpeg.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\drawable-v24\\thor_ragnarok.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_attachment_round.png.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\mipmap-hdpi\\ic_attachment_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\layout_recycler_list.xml.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\layout\\recycler_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_course_plan.xml.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\drawable\\ic_course_plan.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_backup_24.xml.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\drawable\\ic_baseline_backup_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\drawable_statistcs_icon.PNG.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\drawable\\statistcs_icon.PNG"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_home.xml.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\drawable_categories_icon.PNG.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\drawable\\categories_icon.PNG"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_shared_preferences.xml.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\layout\\activity_shared_preferences.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_product.xml.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\drawable\\ic_product.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\drawable_pluto.jpg.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\drawable\\pluto.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_power_settings_new_24.xml.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\drawable\\ic_baseline_power_settings_new_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\drawable_recurring_clipart.xml.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\drawable\\recurring_clipart.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_coco.jpg.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\drawable-v24\\coco.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_attachment.png.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_attachment.png"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_course_schedule.xml.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\drawable\\ic_course_schedule.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_photo_user.png.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\drawable\\ic_photo_user.png"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_attachment.png.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_attachment.png"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\drawable_non_recurring_payments_icon.PNG.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\drawable\\non_recurring_payments_icon.PNG"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_course_book.xml.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\drawable\\ic_course_book.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_list_expenses.xml.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\layout\\activity_list_expenses.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_subproduct.xml.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\drawable\\ic_subproduct.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\drawable_nonrecurring_clipart.xml.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\drawable\\nonrecurring_clipart.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\build\\intermediates\\merged_res\\debug\\layout_recycler_menu.xml.flat",
+        "source": "C:\\Users\\Lakitha\\Documents\\pubmanager-android-workspace\\pubmanager\\app\\src\\main\\res\\layout\\recycler_menu.xml"
+    }
+]

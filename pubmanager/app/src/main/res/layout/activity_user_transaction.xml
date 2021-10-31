@@ -47,6 +47,48 @@
                     android:id="@+id/note"
                     />
 
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Expense Source:"
+                    android:layout_margin="10dp"
+                    android:textSize="15dp"
+                    android:textAppearance="?android:textAppearanceLarge"
+                    />
+
+
+                <RadioGroup
+                    android:id="@+id/transactionExpenseSource"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:padding="10dp"
+                    android:layout_margin="10dp">
+
+                    <RadioButton
+                        android:id="@+id/wallet"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:value="PHYSICAL WALLET"
+                        android:text="PHYSICAL WALLET" />
+
+                    <RadioButton
+                        android:id="@+id/card"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:value="CREDIT CARDS"
+                        android:text="CREDIT CARDS" />
+
+                    <RadioButton
+                        android:id="@+id/account"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:value="BANK ACCOUNT"
+                        android:text="BANK ACCOUNT" />
+
+                </RadioGroup>
+
 
 
                 <!-- Date time -->

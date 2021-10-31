@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout xmlns:android="http://schemas.android.com/apk/res/android">
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <androidx.constraintlayout.widget.ConstraintLayout xmlns:app="http://schemas.android.com/apk/res-auto"
-        xmlns:tools="http://schemas.android.com/tools"
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".activities.HomeActivity">
@@ -26,8 +27,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:textSize="20sp"
-            android:text="Lakitha Dias"
+            android:textSize="13sp"
             android:id="@+id/user_name"
             android:textColor="#ffffff"
             android:fontFamily="@font/mo_re"
@@ -38,18 +38,6 @@
             app:layout_constraintStart_toEndOf="@id/user_photo"
             app:layout_constraintTop_toTopOf="parent"/>
 
-        <TextView
-            android:textSize="16sp"
-            android:text="lakitha.dias@gmail.com"
-            android:id="@+id/user_id"
-            android:fontFamily="@font/mo_re"
-            android:textColor="#ffffff"
-            android:layout_marginTop="32dp"
-            android:layout_marginStart="18dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:layout_constraintStart_toEndOf="@id/user_photo"
-            app:layout_constraintTop_toTopOf="@id/user_name"/>
 
         <GridLayout
             android:layout_width="match_parent"
@@ -89,19 +77,19 @@
 
                     <ImageView
                         android:layout_width="76dp"
-                        android:layout_height="59dp"
+                        android:layout_height="68dp"
                         android:layout_gravity="center_horizontal"
                         android:background="@drawable/categories_icon" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Categories"
                         android:layout_marginTop="8dp"
                         android:fontFamily="@font/mo_re"
+                        android:text="@string/categories"
                         android:textColor="@color/textcardColor"
-                        android:textSize="14sp"
-                        android:textStyle="bold"/>
+                        android:textSize="11sp"
+                        android:textStyle="bold" />
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
@@ -136,9 +124,9 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Statistics"
+                        android:text="@string/statistics"
                         android:textColor="@color/textcardColor"
-                        android:textSize="14sp"
+                        android:textSize="11sp"
                         android:layout_marginTop="8dp"
                         android:fontFamily="@font/mo_re"
                         android:textStyle="bold"/>
@@ -168,17 +156,17 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:layout_width="70dp"
-                        android:layout_height="59dp"
+                        android:layout_width="68dp"
+                        android:layout_height="31dp"
                         android:layout_gravity="center_horizontal"
-                        android:background="@drawable/transactions_icon" />
+                        android:background="@drawable/non_recurring_payments_icon" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Transactions"
+                        android:text="@string/expenses"
                         android:textColor="@color/textcardColor"
-                        android:textSize="14sp"
+                        android:textSize="11sp"
                         android:layout_marginTop="8dp"
                         android:fontFamily="@font/mo_re"
                         android:textStyle="bold"/>
@@ -195,6 +183,7 @@
                 android:layout_marginRight="16dp"
                 android:layout_marginBottom="16dp"
                 android:background="@color/cardColor"
+                android:id="@+id/categoryExpenses"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="6dp">
 
@@ -215,10 +204,10 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="tiletest1"
+                        android:text="@string/categoryExpenses"
                         android:layout_marginTop="8dp"
                         android:textColor="@color/textcardColor"
-                        android:textSize="14sp"
+                        android:textSize="11sp"
                         android:fontFamily="@font/mo_re"
                         android:textStyle="bold"/>
                 </LinearLayout>
@@ -233,6 +222,7 @@
                 android:layout_marginLeft="16dp"
                 android:layout_marginRight="16dp"
                 android:layout_marginBottom="16dp"
+                android:id="@+id/expenseSources"
                 android:background="@color/cardColor"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="6dp">
@@ -246,17 +236,17 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:layout_width="85dp"
-                        android:layout_height="49dp"
+                        android:layout_width="71dp"
+                        android:layout_height="33dp"
                         android:layout_gravity="center_horizontal"
                         android:background="@drawable/non_recurring_payments_icon" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="titletest3"
+                        android:text="Expense Sources"
                         android:textColor="@color/textcardColor"
-                        android:textSize="14sp"
+                        android:textSize="11sp"
                         android:layout_marginTop="8dp"
                         android:fontFamily="@font/mo_re"
                         android:textStyle="bold"/>
@@ -288,15 +278,15 @@
                         android:layout_width="70dp"
                         android:layout_height="60dp"
                         android:layout_gravity="center_horizontal"
-                        android:background="@drawable/recurring_payments_icon" />
+                        android:background="@drawable/transactions_icon" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="titletest4"
+                        android:text="Scheduled Payments"
                         android:layout_marginTop="8dp"
                         android:textColor="@color/textcardColor"
-                        android:textSize="14sp"
+                        android:textSize="11sp"
                         android:fontFamily="@font/mo_re"
                         android:textStyle="bold"/>
                 </LinearLayout>

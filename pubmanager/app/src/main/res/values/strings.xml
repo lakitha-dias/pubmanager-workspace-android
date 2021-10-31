@@ -21,4 +21,15 @@
     <string name="neptune_sub" formatted="false">Recurring Category</string>
     <string name="pluto_sub" formatted="false">Recurring Category</string>
 
+
+    <string name="Menu">Menu</string>
+    <string name="categories">Spending Categories</string>
+    <string name="statistics">Spending Statistics</string>
+    <string name="expenses">Expenses</string>
+    <string name="categoryExpenses">Category Expenses</string>
+
+    <string name="shared">Shared</string>
+    <string name="openNavDrawer">Navigation Drawer Open</string>
+    <string name="closeNavDrawer">Navigation Drawer Close</string>
+
 </resources>

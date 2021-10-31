@@ -13,6 +13,8 @@ import androidx.annotation.NonNull;
 
 
 public class CardsAdapter extends ArrayAdapter<CardModel> {
+
+
     public CardsAdapter(Context context) {
         super(context, R.layout.categories_card_item);
     }

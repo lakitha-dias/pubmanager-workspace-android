@@ -8,6 +8,9 @@ import com.pubmanager.pubmanager.R;
 import com.pubmanager.pubmanager.databinding.ActivityUserCategoryBinding;
 import com.pubmanager.pubmanager.retrofitutil.APIRegistry;
 
+import android.content.Context;
+import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -42,6 +45,14 @@ public class UserCategoryActivity extends AppCompatActivity {
             }
         });
 
+
+        userCategoryBinding.categoriesView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(UserCategoryActivity.this, CategoriesListViewActivity.class));
+            }
+        });
+
     }
 
     private void createCategory() {
@@ -65,7 +76,10 @@ public class UserCategoryActivity extends AppCompatActivity {
         bodyObj.addProperty("title", title);
         bodyObj.addProperty("description", categoryDescription);
 
-        String authToken = "Bearer eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MzUyMzI3OTksImV4cCI6MTYzNTIzOTk5OSwidXNlcklkIjo3LCJlbWFpbCI6Im5hcmVzaDIyZGQuZGRkQGdtYWlsLmNvbSIsImZpcnN0TmFtZSI6Im5hcmVzaDIzZGQiLCJsYXN0TmFtZSI6ImdnZzIyZGQifQ.XYZ0TVAMKpL5Jls4h96oIliNlgEqPHfLJ1lerAqmTI4";
+        SharedPreferences preferences =
+                getSharedPreferences("com.pubmanager.pubmanager", Context.MODE_PRIVATE);
+        String authToken = preferences.getString("authToken", "token");
+
         Call<JsonObject> call = api.createCategory(bodyObj,authToken);
         call.enqueue(new Callback<JsonObject>() {
 

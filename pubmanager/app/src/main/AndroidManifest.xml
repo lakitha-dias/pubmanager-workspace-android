@@ -13,6 +13,24 @@
         android:theme="@style/Theme.PUBManager"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".activities.expenseSource.UserExpenseSourceActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activities.categoryExpenses.CategoryExpensesRecycleViewActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activities.CategoryExpensesActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activities.SharedPreferencesActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activities.UserExpensesAnalyticsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activities.Movie$CategoriesCardViewListActivity"
+            android:exported="true" />
+        <activity
             android:name=".activities.CategoriesListViewActivity"
             android:exported="true" />
         <activity

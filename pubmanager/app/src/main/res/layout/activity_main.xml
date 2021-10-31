@@ -73,27 +73,6 @@
                 />
 
 
-            <!-- Remove this later  -->
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:id="@+id/submitTransaction"
-                android:text="submitTransaction"
-                android:padding="5dp"
-                />
-
-            <!-- Remove this later  -->
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:id="@+id/addCategory"
-                android:text="addCategory"
-                android:padding="5dp"
-                />
-
-
         </LinearLayout>
 
 

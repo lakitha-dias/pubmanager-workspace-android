@@ -19,7 +19,9 @@ import com.pubmanager.pubmanager.models.UserCategory;
 import com.pubmanager.pubmanager.retrofitutil.APIRegistry;
 
 import android.app.DatePickerDialog;
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.graphics.Canvas;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
@@ -66,7 +68,7 @@ public class UserExpensesAnalyticsActivity extends AppCompatActivity {
         setContentView(R.layout.activity_user_expenses_analytics);
 
 
-        listExpensesBinding = DataBindingUtil.setContentView(this, R.layout.activity_list_expenses);
+       /* listExpensesBinding = DataBindingUtil.setContentView(this, R.layout.activity_list_expenses);
         listExpensesBinding.textView2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -77,7 +79,7 @@ public class UserExpensesAnalyticsActivity extends AppCompatActivity {
 
                 showDateDialog(date_in,endpointType,categoryId);
             }
-        });
+        });*/
 
        /* FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -90,7 +92,7 @@ public class UserExpensesAnalyticsActivity extends AppCompatActivity {
 
         // Get transactions for current date at first load
 
-        ZoneId zoneId = ZoneId.of("America/Montreal");  // Or 'ZoneOffset.UTC'.
+       /* ZoneId zoneId = ZoneId.of("America/Montreal");  // Or 'ZoneOffset.UTC'.
         ZonedDateTime now = ZonedDateTime.now(zoneId);
         Month month = now.getMonth();
         int year = now.getYear();
@@ -109,7 +111,7 @@ public class UserExpensesAnalyticsActivity extends AppCompatActivity {
         getTransactionsByDateTime(startDate,endDate);
 
 
-        Log.d("onResponse|listdata got :",listdata.toString());
+        Log.d("onResponse|listdata got :",listdata.toString());*/
 
     }
 
@@ -171,7 +173,11 @@ public class UserExpensesAnalyticsActivity extends AppCompatActivity {
         bodyObj.addProperty("startDateTime", startDate);
         bodyObj.addProperty("endDateTime", endDate);
 
-        String authToken = "Bearer eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MzU1MzM2MDUsImV4cCI6MTYzNjc0MzIwNSwidXNlcklkIjo3LCJlbWFpbCI6Im5hcmVzaDIyZGQuZGRkQGdtYWlsLmNvbSIsImZpcnN0TmFtZSI6Im5hcmVzaDIzZGQiLCJsYXN0TmFtZSI6ImdnZzIyZGQifQ.jV2fHQig12a-FYv8N1enPD1bO3tbGD6U-60VqUjx8PM";
+
+
+        SharedPreferences preferences =
+                getSharedPreferences("com.pubmanager.pubmanager", Context.MODE_PRIVATE);
+        String authToken = preferences.getString("authToken", "token");
 
 
         Call<JsonArray> call = null;
@@ -319,7 +325,11 @@ public class UserExpensesAnalyticsActivity extends AppCompatActivity {
         APIRegistry api = retrofit.create(APIRegistry.class);
 
 
-        String authToken = "Bearer eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MzU1MzM2MDUsImV4cCI6MTYzNjc0MzIwNSwidXNlcklkIjo3LCJlbWFpbCI6Im5hcmVzaDIyZGQuZGRkQGdtYWlsLmNvbSIsImZpcnN0TmFtZSI6Im5hcmVzaDIzZGQiLCJsYXN0TmFtZSI6ImdnZzIyZGQifQ.jV2fHQig12a-FYv8N1enPD1bO3tbGD6U-60VqUjx8PM";
+
+        SharedPreferences preferences =
+                getSharedPreferences("com.pubmanager.pubmanager", Context.MODE_PRIVATE);
+        String authToken = preferences.getString("authToken", "token");
+
         Call<JsonArray> call = api.getAllCategories(authToken);
         call.enqueue(new Callback<JsonArray>() {
             @Override
